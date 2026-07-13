@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <style>
+      * {
+            box-sizing:border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100%;
+            height: 200px;
+            background-color: #f8e7d4;
+            border-radius: 8px;
+            color: #ffffff;
+        }
+
+        .custom-navbar {
+            background-color: #4e3817!important; 
+            border-bottom: 3px solid #352208; 
+        }
+
+        .custom-navbar .navbar-brand {
+            color: #e1bb80 !important; 
+            font-weight: 700;
+        }
+
+        .custom-navbar .nav-link {
+            color: #f8fafc !important;
+            transition: color 0.2s ease-in-out;
+        }
+
+        .custom-navbar .nav-link:hover, 
+        .custom-navbar .nav-link.active {
+            color: #e1bb80 !important; 
+        }
+
+         p   {
+        margin-bottom: 1.25rem;
+        font-family:sans-serif;
+        color: #000000;
+        
+    }
+
+     .content-container {
+            width: 90%;
+            max-width: 100%;
+            margin: 2rem auto; 
+
+            display: grid;
+            grid-template-columns: repeat(1, 1fr); 
+            gap: 2rem;
+        }
+
+         .content-container2 {
+            width: 90%;
+            max-width: 100%;
+            margin: 2rem auto; 
+
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 2rem;
+        }
+
+        .info-card {
+            background-color: #f8e7d4;
+            padding: 2rem;       
+            margin-bottom: 2rem; 
+            border-radius: 8px;
+            border: 1px solid #f8e7d4;
+        }
+
+        .heading-styled {
+
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #000000;
+            margin-bottom: 1rem;
+            font-family: sans-serif;
+            font-size: 50px;
+        }
+
+        .custom-cafe-header {
+            background-color: #2b1e16 !important; 
+            color: #faf6f0 !important;
+            background-image: linear-gradient(rgba(184, 122, 84, 0.85), rgba(143, 109, 88, 0.85)), url("yummy.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .custom-cafe-header h1 {
+            color: #ffffff !important; 
+        }
+
+        p {text-align: center;}
+
+          #footer-anchor-target {
+            background-color: #4e3817;
+            color: #ffffff;
+            padding: 3px;
+            text-align: center;
+        }
+
+</style>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark custom-navbar shadow-sm sticky-top mb-4">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <i class="bi-cake2 me-2"></i>DEIPNEUS
+        </a>
+
+        <button class="navbar-toggler border-0" type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#mainDepartmentNavbar" 
+                aria-controls="mainDepartmentNavbar" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainDepartmentNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.us.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="bakerylogin.html">Log in</a></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+    <div class="content-container">
+
+        <div class="custom-cafe-header text-center text-md-start p-4 p-md-5 rounded-3 mb-5 shadow-sm">
+        <h1 class="fw-bold mb-2" align="center">About Us</h1>
+        </div>
+
+    <div class="content-container2">
+       <section class="info-card">
+        <h1 class="heading-styled" align="center" style="font-size: 40px;">The Story of Deipneus</h1>
+        <p>Deipneus is inspired of Greek mythology associated with the preparation of meals,
+        specifically the making of bread. He was primarily honored in the region of Achaea. In mythology, he is considered part of a trio of
+        rustic deities and functional heroes dedicated to communal feasting and the practical arts of the dining table,
+        which also includes</p>
+       </section>
+
+       <section class="info-card">
+         <img src="deipneus.png" alt="greek god" style="width: 100%;">
+       </section>
+    
+    </div>
+
+
+    <div class="content-container">
+
+        <h1 class="heading-styled" align="center" style="font-size: 40px;">Deipneus in the USA</h1>
+        <p>Since being founded in 2008, The Deipneus has become one of the largest and fastest-growing bakeshops
+        in the Philippines. The brand's superior tasting cakes and pastries are staples in most Filipino families' special occasions
+        and celebrations.</p>
+
+        <p>Today, Deipneus boasts over 500 total locations world-wide and over 30 bakeshops across the U.S. with locations
+        in California, Nevada, Washington, Hawaii, New York, New Jersey, Virginia, Texas, and Illinois. The Los Angeles Times
+        has twice cited the brand's cakes as the “Best of L.A.” and Eater also named Deipneus Bakeshop among the best restaurants 
+        for ube desserts in Las Vegas.</p>
+
+        <p>Most recently, Deipneus entered the “Top 500 Chain Restaurants in the U.S.” list, which is published annually by
+        leading foodservice research and consulting firm, Technomic. Additionally, Red Ribbon's California-based manufacturing
+        facility recently received its Hazard Analysis Critical Control Points (HACCP) certification. HACCP is an internationally
+        recognized process control system that identifies where hazards might occur in the food production process and puts into
+        place the safety measures that a facility should take to prevent the hazards from occurring.</p>
+
+        <img src="storeinUSA.jpg" alt="new store in usa" style="width: 100%;">
+    
+        </div>
+    </div>
+
+        <footer id="footer-anchor-target">
+        <h3 class="heading-styled" style="text-align: center;">Deipneus</h3>
+        <p style="text-align: center;" >Deipneus, Gulayan Catmon, Malabon, Philippines</p>
+        <p style="text-align: center;" >Tel.(632) 8524 4611 and (632) 8465 8900 (Operator)</p>
+        <p style="text-align: center;" >Connect Facebook / Instagram / YouTube</p>
+        <hr>
+        <br>
+        <div style="font-size: 0.85rem; color: #000000;">
+            ©2026 Deipneus - All Rights Reserved
+        </div>
+    </footer>  
+        
+</body>
+</html>
